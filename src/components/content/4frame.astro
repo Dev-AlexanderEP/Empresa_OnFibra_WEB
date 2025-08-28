@@ -1,0 +1,65 @@
+<section id="contacto" class="w-full  px-[40px]  flex  md:flex-row items-center justify-around bg-white relative overflow-hidden  ">
+  <!-- Logo decorativo -->
+  
+
+  <!-- Formulario -->
+  <div class=" bg-white rounded-3xl shadow-2xl border-4 border-[#a259ff] max-w-md w-full p-8 z-10">
+    <h2 class="text-2xl font-extrabold text-[#a259ff] mb-2">¿Tienes dudas?</h2>
+    <p class="mb-6 text-[#ff6a00] font-semibold">Déjanos tus datos y te contactamos</p>
+    <form class="flex flex-col gap-4">
+      <input
+        type="text"
+        placeholder="Nombre completo"
+        class="rounded-xl border-2 border-[#a259ff] focus:border-[#ff6a00] px-4 py-3 text-lg outline-none transition"
+        required
+      />
+      <input
+        type="tel"
+        placeholder="Número de contacto"
+        class="rounded-xl border-2 border-[#a259ff] focus:border-[#ff6a00] px-4 py-3 text-lg outline-none transition"
+        required
+      />
+      <textarea
+        placeholder="Cuéntanos tus dudas o comentarios"
+        class="rounded-xl border-2 border-[#a259ff] focus:border-[#ff6a00] px-4 py-3 text-lg outline-none transition resize-none min-h-[90px]"
+        required
+      ></textarea>
+      <button
+        type="submit"
+        class="mt-2 bg-gradient-to-r from-[#a259ff] to-[#ff6a00] text-white font-bold py-3 rounded-xl shadow-lg hover:scale-105 transition"
+      >
+        Enviar mensaje
+      </button>
+    </form>
+  </div>
+
+  <!-- Imagen del hombre más grande y centrada -->
+  <div class="   flex justify-center items-center ml-0 md:ml-10 z-10 mt-10 md:mt-0 relative">
+    <!-- Logo WiFi flotando arriba a la izquierda con animación -->
+  <img src="/frameglobal/wifilogo.png" alt="WiFi Logo"
+    class="absolute top-40 -left-10 w-24  animate-float" style="z-index:2;" />
+  <!-- Logo WiFi flotando abajo a la derecha con animación -->
+  <img src="/frameglobal/wifilogo2.png" alt="WiFi Logo 2"
+    class="absolute bottom-10 -right-10 w-28  animate-float-reverse" style="z-index:2;" />
+  
+    <img src="/4toframe/loginimage.png" alt="Persona con laptop" class=" w-[200px] md:w-[500px] max-w-full object-contain drop-shadow-2xl " />
+  </div>
+  <style>
+@keyframes float {
+  0% { transform: translateY(0);}
+  50% { transform: translateY(-18px);}
+  100% { transform: translateY(0);}
+}
+@keyframes float-reverse {
+  0% { transform: translateY(0);}
+  50% { transform: translateY(18px);}
+  100% { transform: translateY(0);}
+}
+.animate-float {
+  animation: float 2.8s ease-in-out infinite;
+}
+.animate-float-reverse {
+  animation: float-reverse 2.8s ease-in-out infinite;
+}
+</style>
+</section>
