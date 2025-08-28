@@ -1,0 +1,44 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import Frame1 from "../components/content/1frame.astro";
+import Frame2 from "../components/content/2frame.astro";
+import Frame3 from "../components/content/3frame.astro";
+import Footer from "../components/Footer.astro";
+
+---
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ON Fibra – Internet de alta velocidad</title>
+  <meta name="description" content="Encuentra el plan que más combine contigo. Internet fibra de alta velocidad con planes desde 100 Mbps." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <style>
+    /* Optional: nicer scrollbars */
+    ::-webkit-scrollbar{width:12px;height:12px}
+    ::-webkit-scrollbar-thumb{background:linear-gradient(180deg,#6A00FF,#FF6A00);border-radius:999px}
+    ::-webkit-scrollbar-track{background:#0b0b0b10}
+  </style>
+</head>
+<body class="">
+  <!-- Gradient background decoration -->
+  <!-- <div aria-hidden="true" class="pointer-events-none fixed inset-0 -z-10">
+    <div class="absolute -top-40 -left-40 h-[480px] w-[480px] rounded-full bg-gradient-to-br from-brand.orange via-orange-400 to-amber-300 blur-3xl opacity-50"></div>
+    <div class="absolute -bottom-32 -right-24 h-[520px] w-[520px] rounded-full bg-gradient-to-br from-brand.purple via-fuchsia-500 to-pink-500 blur-3xl opacity-50"></div>
+  </div> -->
+
+  <!-- Top bar -->
+  
+<Header />
+<Frame1 />
+<Frame2 />
+<Frame3 />
+<Footer />
+</body>
+</html>

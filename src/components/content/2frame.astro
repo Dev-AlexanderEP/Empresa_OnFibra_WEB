@@ -1,0 +1,139 @@
+<section class="w-full py-16 px-4 md:px-0  flex flex-col items-center">
+  <div class="max-w-3xl w-full text-center mb-10">
+    <h2 class="text-3xl md:text-4xl font-extrabold text-[#ff6a00] mb-4">
+      ¡<span class="font-bold text-[#ff6a00]">On<span class="text-[#a259ff]">Fibra</span></span> ahora te trae TV e Internet juntos!
+    </h2>
+    <p class="text-lg text-[#444] mb-2">
+      Disfruta de la mejor velocidad de internet con la mejor programación en un solo plan.<br>
+      <span class="font-bold text-[#222]">Más entretenimiento, más conexión.</span>
+    </p>
+    <div class="inline-block mt-4 px-6 py-2 rounded-xl bg-white text-[#ff6a00] font-bold text-base shadow-md border border-[#ff6a00]">
+      ¡CERO COSTO DE INSTALACIÓN EN TODOS LOS PLANES!
+    </div>
+  </div>
+
+  <div class="w-full flex flex-col items-center gap-8">
+    <!-- Fila 1: 3 cards -->
+    <div class="flex flex-row justify-center gap-8 w-full">
+      <div class="card-vertical-elegant w-[280px]">
+        <h3>100 <span>Mbps</span></h3>
+        <p>Internet Turbo 5G</p>
+        <span class="tag">Router Wi-Fi Turbo</span>
+        <div class="precio">S/. 49.90 <span>/mes</span></div>
+        <span class="detalle">Por tiempo ilimitado</span>
+      </div>
+      <div class="card-vertical-elegant w-[280px]">
+        <h3>200 <span>Mbps</span></h3>
+        <p>Internet + Cable</p>
+        <span class="tag">Router Wi-Fi Turbo + TV</span>
+        <div class="precio">S/. 59.90 <span>/mes</span></div>
+        <span class="detalle">Por tiempo ilimitado</span>
+      </div>
+      <div class="card-vertical-elegant w-[280px]">
+        <h3>300 <span>Mbps</span></h3>
+        <p>Internet + Cable</p>
+        <span class="tag">Router Wi-Fi Turbo + TV</span>
+        <div class="precio">S/. 69.90 <span>/mes</span></div>
+        <span class="detalle">Por tiempo ilimitado</span>
+      </div>
+    </div>
+    <!-- Fila 2: 2 cards centradas -->
+    <div class="flex flex-row justify-center gap-8 w-full">
+      <div class="card-vertical-elegant w-[280px]">
+        <h3>500 <span>Mbps</span></h3>
+        <p>Internet + Cable</p>
+        <span class="tag">Router Wi-Fi Turbo + TV</span>
+        <div class="precio">S/. 84.90 <span>/mes</span></div>
+        <span class="detalle">Por tiempo ilimitado</span>
+      </div>
+      <div class="card-vertical-elegant w-[280px]">
+        <h3>1000 <span>Mbps</span></h3>
+        <p>Internet Premium</p>
+        <span class="tag">Router Wi-Fi Turbo Pro</span>
+        <div class="precio">S/. 129.90 <span>/mes</span></div>
+        <span class="detalle">Por tiempo ilimitado</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.card-vertical-elegant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 2rem;
+  padding: 2.5rem 2rem;
+  border: 4px solid transparent;
+  background-image:
+    linear-gradient(white, white),
+    linear-gradient(135deg, #ff6a00, #a259ff);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  box-shadow: 0 4px 24px rgba(162,89,255,0.08);
+  max-width: 320px;
+  min-height: 420px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+.card-vertical-elegant:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 32px rgba(255,106,0,0.12);
+}
+.card-vertical-elegant h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #ff6a00;
+  margin-bottom: 0.5rem;
+}
+.card-vertical-elegant h3 span {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #a259ff;
+}
+.card-vertical-elegant p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #a259ff;
+  margin-bottom: 1rem;
+}
+.card-vertical-elegant .tag {
+  display: inline-block;
+  background: #fff;
+  color: #ff6a00;
+  font-weight: 700;
+  border: 1.5px solid #ff6a00;
+  border-radius: 999px;
+  padding: 0.4rem 1.2rem;
+  font-size: 0.9rem;
+  margin-bottom: 1.2rem;
+}
+.card-vertical-elegant .precio {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #ff6a00;
+  margin-bottom: 0.5rem;
+}
+.card-vertical-elegant .precio span {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #a259ff;
+}
+.card-vertical-elegant .detalle {
+  font-size: 0.95rem;
+  color: #a259ff;
+  opacity: 0.8;
+  margin-top: 0.5rem;
+}
+@media (max-width: 900px) {
+  .flex-row {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .card-vertical-elegant {
+    margin-bottom: 1.5rem;
+  }
+}
+</style>
