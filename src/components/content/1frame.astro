@@ -1,29 +1,54 @@
 <div class="h-[calc(100vh-110px)]">
-  <section class="h-full relative flex flex-col-reverse md:flex-row items-center justify-between gap-8 px-20 overflow-hidden">
-    <div class="flex-1 flex flex-col items-start z-10">
-      <span class="inline-block mb-4 px-4 py-1 rounded-full bg-[#fff] border border-[#ff6a00] text-[#ff6a00] font-semibold shadow-sm text-lg">¡Promoción exclusiva!</span>
-      <h1 class="text-4xl md:text-5xl font-extrabold text-[#222] leading-tight mb-4">
+  <section class="h-full relative flex flex-col-reverse md:flex-row items-center justify-between gap-8 px-6 sm:px-10 md:px-20 overflow-hidden">
+    
+    <!-- Texto principal -->
+    <div class="flex-1 flex flex-col items-start z-10 text-center md:text-left">
+      <span class="inline-block mb-4 px-4 py-1 rounded-full bg-white border border-[#ff6a00] text-[#ff6a00] font-semibold shadow-sm text-base sm:text-lg">
+        ¡Promoción exclusiva!
+      </span>
+
+      <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#222] leading-tight mb-4">
         Internet de alta velocidad<br>
-        <span class="bg-gradient-to-r from-[#a259ff] to-[#ff6a00] bg-clip-text text-transparent">para tu hogar</span>
+        <span class="bg-gradient-to-r from-[#a259ff] to-[#ff6a00] bg-clip-text text-transparent">
+          para tu hogar
+        </span>
       </h1>
-      <p class="text-lg text-[#444] mb-6 max-w-lg">
-        Disfruta de la mejor conexión con <span class="font-bold text-[#ff6a00]">on<span class="text-[#a259ff]">Fibra</span></span>. Planes flexibles, instalación rápida y soporte 24/7.
+
+      <p class="text-base sm:text-lg text-[#444] mb-6 max-w-xl">
+        Disfruta de la mejor conexión con 
+        <span class="font-bold text-[#ff6a00]">on
+          <span class="text-[#a259ff]">Fibra</span>
+        </span>. Planes flexibles, instalación rápida y soporte 24/7.
       </p>
-      <div class="mt-6 flex items-center gap-6 text-sm text-neutral-600 ">
-        <div class="flex items-center gap-2 text-lg"><span class="h-2.5 w-2.5 rounded-full bg-emerald-500"></span> Uptime 99.9%</div>
-        <div class="flex items-center gap-2 text-lg"><span class="h-2.5 w-2.5 rounded-full bg-sky-500"></span> Latencia baja</div>
-        <div class="flex items-center gap-2 text-lg"><span class="h-2.5 w-2.5 rounded-full bg-amber-500"></span> Soporte 24/7</div>
+
+      <!-- Características -->
+      <div class="mt-6 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 text-sm sm:text-base text-neutral-600">
+        <div class="flex items-center gap-2">
+          <span class="h-2.5 w-2.5 rounded-full bg-emerald-500"></span> Uptime 99.9%
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="h-2.5 w-2.5 rounded-full bg-sky-500"></span> Latencia baja
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="h-2.5 w-2.5 rounded-full bg-amber-500"></span> Soporte 24/7
+        </div>
       </div>
-
     </div>
-    <div class="flex-1 flex justify-center items-center z-10 relative">
+
+    <!-- Imagen + Emojis -->
+    <div class="flex-1 flex justify-center items-center z-10 relative w-full">
       <!-- Emoji arriba izquierda -->
-      <img src="/frameglobal/emijihappy.png" alt="Emoji feliz" class="absolute -top-10 -left-10 w-28 h-[100px] md:w-36 md:h-[170px] z-20" />
-      <!-- Emoji abajo derecha -->
-      <img src="/frameglobal/emojiheart.png" alt="Emoji corazón" class="absolute -bottom-10 -right-10 w-28 h-[100px] md:w-36 md:h-[170px] z-20" />
-      <!-- Imagen principal más grande -->
-      <img src="/1frame/img1.png" alt="Internet de alta velocidad" class="w-[90%] md:w-[700px] max-w-none rounded-2xl shadow-2xl object-cover" />
+      <img src="/frameglobal/emijihappy.png" alt="Emoji feliz"
+        class="absolute -top-6 -left-6 w-20  sm:w-24 sm:h-24 md:w-36 md:h-[170px] z-20" />
 
+      <!-- Emoji abajo derecha -->
+      <img src="/frameglobal/emojiheart.png" alt="Emoji corazón"
+        class="absolute -bottom-6 -right-6 w-20 sm:w-24 sm:h-24 md:w-36 md:h-[170px] z-20" />
+
+      <!-- Imagen principal -->
+      <img src="/1frame/img1.png" alt="Internet de alta velocidad"
+        class="w-[90%] sm:w-[85%] md:w-[700px] max-w-none rounded-2xl shadow-2xl object-cover" />
     </div>
+
   </section>
 </div>

@@ -1,190 +1,121 @@
-<div class="flex flex-col items-center justify-center gap-6 w-full py-8">
-  <h1
-    id="contacto"
-    class="text-3xl md:text-5xl font-extrabold text-[#a259ff] text-center mb-2"
-  >
+<div class="flex flex-col items-center justify-center gap-6 w-full py-8 px-4 sm:px-6 md:px-10">
+  <!-- Título principal -->
+  <h1 id="contacto" class="text-2xl sm:text-4xl md:text-5xl font-extrabold text-[#a259ff] text-center mb-2">
     ¿Cómo puedes contactarnos?
   </h1>
-  <p class="text-3xl text-[#ff6a00] font-semibold text-center mb-4">
+
+  <!-- Subtítulo WhatsApp -->
+  <p class="text-xl sm:text-2xl md:text-3xl text-[#ff6a00] font-semibold text-center mb-4">
     Por nuestro WhatsApp
   </p>
-  <div
-    class="flex items-center gap-3 bg-white rounded-2xl shadow-lg px-8 py-6 border-2 border-[#a259ff] max-w-2xl w-full"
-  >
-    <img
-      src="/4toframe/logoWhatsap.png"
-      alt="WhatsApp"
-      class="w-[180px] mb-2 drop-shadow-md"
-    />
-    <div class="flex flex-col items-start gap-1">
-      <p>
-        Nuestro equipo de atención al cliente está disponible para ayudarte con
-        cualquier consulta o soporte que necesites. ¡Estamos aquí para ti!
+
+  <!-- Caja WhatsApp -->
+  <div class="flex flex-col sm:flex-row items-center gap-6 bg-white rounded-2xl shadow-lg px-6 sm:px-8 py-6 border-2 border-[#a259ff] max-w-3xl w-full">
+    <img src="/4toframe/logoWhatsap.png" alt="WhatsApp" class="w-36 sm:w-44 drop-shadow-md" />
+
+    <div class="flex flex-col items-start gap-3 text-left md:text-center  max-md:items-center">
+      <p class="text-sm sm:text-base text-[#222] max-w-xl max-md:text-center">
+        Nuestro equipo de atención al cliente está disponible para ayudarte con cualquier consulta o soporte que necesites. ¡Estamos aquí para ti!
       </p>
-      <span class="text-[#222] font-bold text-2xl flex items-center gap-2">
-        <a
-          href="https://wa.me/51920194122"
-          target="_blank"
-          class="hover:underline hover:text-[#25D366] transition"
-          >+51 920 194 122</a
-        >
-        <span class="ml-2 text-[#a259ff] font-semibold animate-fade-in"
-          >¡Clic aquí!</span
-        >
+      <!-- Número 1 -->
+      <span class="text-[#222] font-bold text-lg sm:text-xl flex items-center gap-2 ">
+        <a href="https://wa.me/51920194122" target="_blank" class="hover:underline hover:text-[#25D366] transition">+51 920 194 122</a>
+        <span class="text-[#a259ff] font-semibold animate-fade-in">¡Clic aquí!</span>
       </span>
-      <span class="text-[#222] font-bold text-2xl flex items-center gap-2">
-        <a
-          href="https://wa.me/51974272550"
-          target="_blank"
-          class="hover:underline hover:text-[#25D366] transition"
-          >+51 974 272 550</a
-        >
-        <span class="ml-2 text-[#a259ff] font-semibold animate-fade-in-delay"
-          >¡Clic aquí!</span
-        >
+      <!-- Número 2 -->
+      <span class="text-[#222] font-bold text-lg sm:text-xl flex items-center gap-2">
+        <a href="https://wa.me/51974272550" target="_blank" class="hover:underline hover:text-[#25D366] transition">+51 974 272 550</a>
+        <span class="text-[#a259ff] font-semibold animate-fade-in-delay">¡Clic aquí!</span>
       </span>
     </div>
   </div>
-  <div
-    class="text-[100px] md:text-[200px] opacity-20 text-[#a259ff] font-extrabold select-none leading-none my-6 md:my-0"
-  >
+
+  <!-- Separador "O" -->
+  <div class="text-6xl sm:text-7xl md:text-[140px] lg:text-[200px] opacity-20 text-[#a259ff] font-extrabold select-none leading-none my-4 sm:my-6">
     O
   </div>
-</div>
-<div>
-  <p class="text-3xl text-[#ff6a00] font-semibold text-center mb-4">
+
+  <!-- Subtítulo Formulario -->
+  <p class="text-xl sm:text-2xl md:text-3xl text-[#ff6a00] font-semibold text-center mb-4 max-md:mb-0">
     Por nuestro Formulario
   </p>
 </div>
-<section
-  class="w-full px-[40px] flex md:flex-row items-center justify-around bg-white relative overflow-hidden"
->
+
+<!-- Sección Formulario -->
+<section class="w-full px-4 sm:px-6 md:px-10 flex flex-col md:flex-row items-center justify-around bg-white py-10 gap-10 relative overflow-hidden">
   <!-- Formulario -->
-  <div
-    class="bg-white rounded-3xl shadow-2xl border-4 border-[#a259ff] max-w-md w-full p-8 z-10"
-  >
-    <h2 class="text-2xl font-extrabold text-[#a259ff] mb-2">¿Tienes dudas?</h2>
-    <p class="mb-6 text-[#ff6a00] font-semibold">
+  <div class="bg-white rounded-3xl shadow-2xl border-4 border-[#a259ff] max-w-md w-full p-6 sm:p-8 z-10">
+    <h2 class="text-xl sm:text-2xl font-extrabold text-[#a259ff] mb-2">¿Tienes dudas?</h2>
+    <p class="mb-6 text-[#ff6a00] font-semibold text-sm sm:text-base">
       Déjanos tus datos y te contactamos
     </p>
     <form class="flex flex-col gap-4">
-      <input
-        type="text"
-        placeholder="Nombre completo"
-        class="rounded-xl border-2 border-[#a259ff] focus:border-[#ff6a00] px-4 py-3 text-lg outline-none transition"
-        required
-      />
-      <input
-        type="tel"
-        placeholder="Número de contacto"
-        class="rounded-xl border-2 border-[#a259ff] focus:border-[#ff6a00] px-4 py-3 text-lg outline-none transition"
-        required
-      />
-      <textarea
-        placeholder="Cuéntanos tus dudas o comentarios"
-        class="rounded-xl border-2 border-[#a259ff] focus:border-[#ff6a00] px-4 py-3 text-lg outline-none transition resize-none min-h-[90px]"
-        required></textarea>
-      <button
-        type="submit"
-        class="mt-2 bg-gradient-to-r from-[#a259ff] to-[#ff6a00] text-white font-bold py-3 rounded-xl shadow-lg hover:scale-105 transition"
-      >
+      <input type="text" placeholder="Nombre completo" required
+        class="rounded-xl border-2 border-[#a259ff] focus:border-[#ff6a00] px-4 py-3 text-base outline-none transition" />
+      <input type="tel" placeholder="Número de contacto" required
+        class="rounded-xl border-2 border-[#a259ff] focus:border-[#ff6a00] px-4 py-3 text-base outline-none transition" />
+      <textarea placeholder="Cuéntanos tus dudas o comentarios" required
+        class="rounded-xl border-2 border-[#a259ff] focus:border-[#ff6a00] px-4 py-3 text-base outline-none transition resize-none min-h-[90px]"></textarea>
+      <button type="submit"
+        class="mt-2 bg-gradient-to-r from-[#a259ff] to-[#ff6a00] text-white font-bold py-3 rounded-xl shadow-lg hover:scale-105 transition">
         Enviar mensaje
       </button>
     </form>
   </div>
 
-  <!-- Imagen del hombre más grande y centrada -->
-  <div
-    class="flex justify-center items-center ml-0 md:ml-10 z-10 mt-10 md:mt-0 relative"
-  >
-    <!-- Logo WiFi flotando arriba a la izquierda con animación -->
-    <img
-      src="/frameglobal/wifilogo.png"
-      alt="WiFi Logo"
-      class="absolute top-40 -left-10 w-24 animate-float"
-      style="z-index:2;"
-    />
-    <!-- Logo WiFi flotando abajo a la derecha con animación -->
-    <img
-      src="/frameglobal/wifilogo2.png"
-      alt="WiFi Logo 2"
-      class="absolute bottom-10 -right-10 w-28 animate-float-reverse"
-      style="z-index:2;"
-    />
+  <!-- Imagen persona + íconos flotantes -->
+  <div class="flex justify-center items-center relative w-full md:w-auto">
+    <!-- Icono WiFi flotante arriba izquierda -->
+    <img src="/frameglobal/wifilogo.png" alt="WiFi Logo"
+      class="absolute top-12 left-0 sm:left-[-30px] w-16 sm:w-20 animate-float z-20" />
 
-    <img
-      src="/4toframe/loginimage.png"
-      alt="Persona con laptop"
-      class="w-[200px] md:w-[500px] max-w-full object-contain drop-shadow-2xl"
-    />
+    <!-- Icono WiFi flotante abajo derecha -->
+    <img src="/frameglobal/wifilogo2.png" alt="WiFi Logo 2"
+      class="absolute bottom-4 right-0 sm:right-[-30px] w-20 animate-float-reverse z-20" />
+
+    <!-- Imagen persona -->
+    <img src="/4toframe/loginimage.png" alt="Persona con laptop"
+      class="w-44 sm:w-72 md:w-[400px] max-w-full object-contain drop-shadow-2xl" />
   </div>
+
+  <!-- Animaciones CSS -->
   <style>
     @keyframes float {
-      0% {
-        transform: translateY(0);
-      }
-      50% {
-        transform: translateY(-18px);
-      }
-      100% {
-        transform: translateY(0);
-      }
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-18px); }
+      100% { transform: translateY(0); }
     }
+
     @keyframes float-reverse {
-      0% {
-        transform: translateY(0);
-      }
-      50% {
-        transform: translateY(18px);
-      }
-      100% {
-        transform: translateY(0);
-      }
+      0% { transform: translateY(0); }
+      50% { transform: translateY(18px); }
+      100% { transform: translateY(0); }
     }
+
     .animate-float {
       animation: float 2.8s ease-in-out infinite;
     }
+
     .animate-float-reverse {
       animation: float-reverse 2.8s ease-in-out infinite;
     }
-  </style>
-  <style>
+
     @keyframes fadeInOut {
-      0%,
-      100% {
-        opacity: 0;
-        transform: scale(0.7);
-      }
-      10%,
-      45% {
-        opacity: 1;
-        transform: scale(1);
-      }
-      55%,
-      100% {
-        opacity: 0;
-        transform: scale(0.7);
-      }
+      0%, 100% { opacity: 0; transform: scale(0.7); }
+      10%, 45% { opacity: 1; transform: scale(1); }
+      55%, 100% { opacity: 0; transform: scale(0.7); }
     }
+
     @keyframes fadeInOutDelay {
-      0%,
-      45% {
-        opacity: 0;
-        transform: scale(0.7);
-      }
-      55%,
-      90% {
-        opacity: 1;
-        transform: scale(1);
-      }
-      100% {
-        opacity: 0;
-        transform: scale(0.7);
-      }
+      0%, 45% { opacity: 0; transform: scale(0.7); }
+      55%, 90% { opacity: 1; transform: scale(1); }
+      100% { opacity: 0; transform: scale(0.7); }
     }
+
     .animate-fade-in {
       animation: fadeInOut 3s linear infinite;
     }
+
     .animate-fade-in-delay {
       animation: fadeInOutDelay 3s linear infinite;
     }
